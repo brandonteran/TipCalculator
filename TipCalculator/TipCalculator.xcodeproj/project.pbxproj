@@ -13,6 +13,7 @@
 		07CF432C2116091200789DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CF432B2116091200789DFE /* Assets.xcassets */; };
 		07CF432F2116091300789DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF432D2116091200789DFE /* LaunchScreen.storyboard */; };
 		07CF43372116138B00789DFE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF43362116138B00789DFE /* CustomTextField.swift */; };
+		07CF43392116180C00789DFE /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF43382116180C00789DFE /* CustomSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		07CF432E2116091200789DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07CF43302116091300789DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07CF43362116138B00789DFE /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		07CF43382116180C00789DFE /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				07CF432D2116091200789DFE /* LaunchScreen.storyboard */,
 				07CF43302116091300789DFE /* Info.plist */,
 				07CF43362116138B00789DFE /* CustomTextField.swift */,
+				07CF43382116180C00789DFE /* CustomSegmentedControl.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				07CF43272116090C00789DFE /* ViewController.swift in Sources */,
 				07CF43252116090C00789DFE /* AppDelegate.swift in Sources */,
 				07CF43372116138B00789DFE /* CustomTextField.swift in Sources */,
+				07CF43392116180C00789DFE /* CustomSegmentedControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

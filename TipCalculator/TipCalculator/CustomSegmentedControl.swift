@@ -1,5 +1,5 @@
 //
-//  CustomTextField.swift
+//  CustomSegmentedControl.swift
 //  TipCalculator
 //
 //  Created by Teran on 8/4/18.
@@ -8,13 +8,8 @@
 
 import UIKit
 
-@IBDesignable class CustomTextField: UITextField {
-    @IBInspectable var cornerRadius: CGFloat = 0.0 {
-        didSet {
-            self.layer.cornerRadius = cornerRadius
-        }
-    }
-    
+
+@IBDesignable class CustomSegmentedControl: UISegmentedControl {
     @IBInspectable var borderWidth: CGFloat = 0.0 {
         didSet {
             self.layer.borderWidth = borderWidth
@@ -25,5 +20,9 @@ import UIKit
         didSet {
             self.layer.borderColor = borderColor
         }
+    }
+    
+    override func draw(_ rect: CGRect) {
+        layer.cornerRadius = layer.frame.height / 2
     }
 }

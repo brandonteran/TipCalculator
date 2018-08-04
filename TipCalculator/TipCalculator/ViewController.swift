@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var tipLabel: UILabel!
-    @IBOutlet weak var totalLabel: UILabel!
-    @IBOutlet weak var billField: CustomTextField!
-    @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var tipLabel   : UILabel!
+    @IBOutlet weak var totalLabel : UILabel!
+    @IBOutlet weak var billField  : CustomTextField!
+    @IBOutlet weak var tipControl : CustomSegmentedControl!
+    
+    
+    private func setupUIAttributes() {
+        billField.attributedPlaceholder = NSAttributedString(string: "0.00", attributes: [NSAttributedStringKey.foregroundColor: #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)])
+    }
+    
     
     @IBAction func onTap(_ sender: UITapGestureRecognizer) {
         view.endEditing(true)
@@ -37,7 +43,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupUIAttributes()
     }
 
     

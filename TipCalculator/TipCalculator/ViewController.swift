@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
-    @IBOutlet weak var billField: UITextField!
+    @IBOutlet weak var billField: CustomTextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
     
     @IBAction func onTap(_ sender: UITapGestureRecognizer) {
